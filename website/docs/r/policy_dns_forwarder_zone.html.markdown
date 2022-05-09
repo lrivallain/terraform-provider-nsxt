@@ -50,7 +50,7 @@ An existing object can be [imported][docs-import] into this resource, via the fo
 [docs-import]: https://www.terraform.io/cli/import
 
 ```
-terraform import nsxt_policy_dns_forwarder_zone.test UUID
+terraform import nsxt_policy_dns_forwarder_zone.test ID
 ```
 
-The above command imports PolicyDnsForwarderZone named `test` with the NSX Dns Forwarder Zone ID `UUID`.
+The above command imports PolicyDnsForwarderZone named `test` with the NSX Dns Forwarder Zone ID `ID`.
