@@ -110,9 +110,9 @@ The following arguments are supported:
 
 In addition to arguments listed above, the following attributes are exported:
 
-* `id` - ID of the Security Policy.
+* `id` - ID of the Segment.
 * `revision` - Indicates current revision number of the object as seen by NSX-T API server. This attribute can be useful for debugging.
-* `path` - The NSX path of the policy resource.
+* `path` - The NSX path of the segment resource.
 * In the `subnet`:
   * `network` The network CIDR for the subnet.
 
